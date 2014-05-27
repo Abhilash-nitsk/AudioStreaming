@@ -49,6 +49,14 @@ public class AudioDoubt extends Activity implements OnClickListener {
 				status.setText("You are in the active list.");
 				queuePos.setText("Wait for your turn.");
 			}
+			try{
+				queue--;
+				Thread.sleep(500);
+			}
+			catch(Exception e)
+			{
+				e.printStackTrace();
+			}
 		}
 		status.setText("Its your turn !!!");
 		queuePos.setText("Start Speaking !!!");
