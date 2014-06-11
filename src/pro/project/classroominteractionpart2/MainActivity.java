@@ -82,6 +82,7 @@ public class MainActivity extends Activity implements OnClickListener {
 																		// DOUBT
 																		// SESSION
 			startActivity(confirm);
+			//finish();	//FINISH THIS ACTIVITY
 			break;
 		}
 	}

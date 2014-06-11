@@ -8,7 +8,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -89,8 +88,8 @@ public class AudioDoubt extends Activity implements OnClickListener {
 			if (as != null) {
 				as.onWithdrawPress();	//CANCEL AUDIO REQUEST OR STOP AUDIO MESSAGE
 			}
-			back=new Intent(AudioDoubt.this, MainActivity.class);
-			startActivity(back);
+			//back=new Intent(AudioDoubt.this, MainActivity.class);
+			//startActivity(back);
 			finish();	//FINISH THIS ACTIVITY
 			break;
 		}
