@@ -13,7 +13,7 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.ShortBuffer;
 import java.util.regex.Pattern;
-
+hi this is a bug;
 import android.media.AudioFormat;
 import android.media.AudioRecord;
 import android.util.Log;
